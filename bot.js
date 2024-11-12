@@ -3,7 +3,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const fetch = require('node-fetch');
 
 // Your Discord bot token (replace this with your actual bot token)
-const token = 'MTMwNTcxMjAwNzQ0NTQ3OTUyNg.GdophY.kPb8Zqep93hMLuM5arftqZuxG7hC2rXnA88-pM';
+const token = process.env.TOKEN;
 
 // Initialize the Discord client
 const client = new Client({
